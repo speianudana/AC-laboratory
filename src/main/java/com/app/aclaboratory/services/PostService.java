@@ -15,7 +15,8 @@ public class PostService {
     private List<Post> postList = new ArrayList<>(Arrays.asList(
             new Post(1L, "Gasit", "Cafeniu", "Cocker spaniel", "Caine", 10L, "Baiat", "069023904"),
             new Post(2L, "Gasit", "ALb", "Cocker spaniel", "Caine", 4L, "Fata", "069023304"),
-            new Post(3L, "Pierdut", "Negru", "Labrador", "Caine", 2L, "Baiat", "0690423904")));
+            new Post(3L, "Pierdut", "Negru", "Labrador", "Caine", 2L, "Baiat", "0690423904"),
+            new Post(5L, "Gasit", "Negru", "Labrador", "Caine", 2L, "Baiat", "0690423904")));
 
 
     public List<Post> getAllPosts() {
